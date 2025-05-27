@@ -7,7 +7,7 @@ public class Concesionario {
 
     // Método para agregar un vehículo al inventario
     public void agregarVehiculo(Vehiculo vehiculo) {
-        ********.add(vehiculo);
+        inventario.add(vehiculo);
     }
 
     // Método para realizar una venta de un vehículo
