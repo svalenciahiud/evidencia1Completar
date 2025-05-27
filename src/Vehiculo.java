@@ -45,7 +45,7 @@ public class Vehiculo {
 class Auto extends Vehiculo {
     // Constructor de la clase Auto
     public Auto(String codigo, String marca, int modelo, double kilometraje) {
-        super(codigo, marca, ******, modelo, kilometraje); // Llama al constructor de Vehiculo
+        super(codigo, marca,"Auto", modelo, kilometraje); // Llama al constructor de Vehiculo
     }
 }
 
