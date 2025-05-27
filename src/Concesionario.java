@@ -23,7 +23,7 @@ public class Concesionario {
         // Si se encuentra el vehículo, se registra la venta
         if (vehiculoVendido != null) {
             ventas.add(new Venta(monto, vehiculoVendido, apellido, nombre, documento));
-            *******.remove(vehiculoVendido);
+            inventario.remove(vehiculoVendido);
             System.out.println("Venta realizada: " + nombre + " " + apellido + " ha comprado " + vehiculoVendido.getMarca());
         } else {
             System.out.println("Error: Vehículo con código " + codigoVehiculo + " no encontrado.");
